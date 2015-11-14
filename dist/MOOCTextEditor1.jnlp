@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MOOCTextEditor1.jnlp">
+  <information>
+    <title>MOOCTextEditor1</title>
+    <vendor>LANREWAJU</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MOOCTextEditor1.jar" size="81980" download="eager" />
+    <jar href="lib\junit-4.10.jar" size="253160" download="eager" />
+    <jar href="lib\richtextfx-fat-0.6.10.jar" size="675497" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MOOCTextEditor1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="application.MainApp"  name="MOOCTextEditor1" />
+  <update check="always"/>
+</jnlp>
